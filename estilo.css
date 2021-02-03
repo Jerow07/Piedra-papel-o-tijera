@@ -1,0 +1,30 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background: rgb(35, 35, 150);
+
+
+
+}
+.titulo{ border: white solid 1px ;
+   font-size: 50px;
+    color: white;
+    top: 30px;
+    padding: 30px    ;
+    width: 700px;
+    position: absolute; 
+    right: 28%;
+    ;
+}
+.score 
+{font-size: 30px;
+position: fixed;
+top: 30%;
+left: 60%;
+}
+.reglas
+{
+    position: absolute;
+    ;
+}
