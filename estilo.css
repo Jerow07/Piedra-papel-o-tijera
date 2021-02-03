@@ -1,30 +1,158 @@
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 body{
-    background: rgb(35, 35, 150);
+    background: rgb(25, 25, 107);
+font-family: sans-serif;
 
-
-
+background: radial-gradient(circle,rgb(12, 12, 87),rgb(60, 60, 108),rgb(100, 100, 208));
 }
-.titulo{ border: white solid 1px ;
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    border: white solid 2px ;
    font-size: 50px;
     color: white;
     top: 30px;
     padding: 30px    ;
     width: 700px;
-    position: absolute; 
+
     right: 28%;
-    ;
+    border-radius: 10%;
+    border-style: solid ;
+}
+.cuadro{
+    
+    display: flex;
+    justify-content: center;
+   
+
+
+
+}
+.titulo p{
+    margin: 10px;
+    
+   
+    
+}
+.cuadradodescore{
+    
+
+    position: relative;
+    width: 160px    ;
+    height: 160px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    border-radius: 10%;
+
+    background-color: white;
+}
+.numerodelscore{
+    font-size:30px;
+    color: black;
+    margin-top:  20px;
+    
+   
+
+    
 }
 .score 
-{font-size: 30px;
-position: fixed;
-top: 30%;
-left: 60%;
+{   margin-top: 10px;
+    font-size: 50px;
+    color:black;
 }
+
+
 .reglas
-{
+{   border: white;
+    border-style: solid;
+    border-radius: 15%;
+    color: white;
+    font-size: 30px;
     position: absolute;
-    ;
+    background: rgba(0,0,0,0);
+    bottom: 20px;
+    right:  20px;
+}
+.reglas:active{
+    background: white;
+    color: black;
+}
+.CUADRADODEJUEGO{
+position: absolute;
+top: 60%;
+right: 50%;
+transform: translate(+50%,-50%);
+
+}
+.imagendeltriangulo{
+position: absolute;
+top: 50%;
+right: 50%;
+transform: translate(50%,-50%);
+z-index: -1 ;
+
+
+}
+
+.PIEDRA{
+    border: solid red 10px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    z-index: 999;
+    background-color:white;
+    
+     
+    
+    
+}
+.TIJERA{
+    
+        border: yellow solid 10px;
+        border-radius: 50%;
+        
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 150px;
+        bottom: 95px;
+        z-index: 9;
+        background-color: white;
+}
+.PAPEL{
+    border: lightblue solid 10px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 150px;
+    top: 70px;
+    z-index: 9;
+    background-color: white;
+}
+.imagendepapel img{
+    height: 80px;
+    width: 80px;
+    position:relative;
+    left: 35px;
+    top: 35px;
+}
+
+.imagendetijera img{
+height: 80px;
+width: 80px;
+position:relative;
+left: 35px;
+top: 35px;
+}
+
+.imagendepiedra img{
+    height: 80px;
+    width: 80px;
+    position:relative;
+    left: 35px;
+    top: 35px; 
 }
