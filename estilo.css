@@ -82,7 +82,7 @@ background: radial-gradient(circle,rgb(12, 12, 87),rgb(60, 60, 108),rgb(100, 100
 }
 .CUADRADODEJUEGO{
 position: absolute;
-top: 60%;
+top: 65%;
 right: 50%;
 transform: translate(+50%,-50%);
 
