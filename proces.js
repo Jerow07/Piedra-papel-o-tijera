@@ -1,6 +1,6 @@
-const regla = document.getElementById("botonregla")
+
 const imagenconcruz = document.getElementById("imagenconcruz")
-const cruz = document.getElementById("cruz")
+
 function abrir(){ 
     imagenconcruz.style.display ="block" 
 
@@ -15,5 +15,5 @@ function cerrar(){
 
 
 function juego() {
-    
+
 }
